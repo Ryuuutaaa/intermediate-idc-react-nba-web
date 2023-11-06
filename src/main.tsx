@@ -8,6 +8,7 @@ import TanstackQuery from "./provider/tanstack";
 import "./index.css";
 import Next from "./pages/next.tsx";
 import TeamWest from "./pages/teamWest.tsx";
+import TeamEast from "./pages/teamEast.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById("root")!).render(
 
           {/* team */}
           <Route path="/west" element={<TeamWest />} />
+          <Route path="/east" element={<TeamEast />} />
         </Routes>
       </BrowserRouter>
     </TanstackQuery>

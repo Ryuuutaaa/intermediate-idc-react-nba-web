@@ -1,34 +1,6 @@
-// import { Link } from "react-router-dom";
-// export default function Index() {
-//   return (
-//     <div>
-//       Index
-//       <Link to={"/user"}>Check User</Link>
-//     </div>
-//   );
-// }
-
 import Navbar from "../components/user/Navbar";
 
-// const Index = () => {
-//   return (
-//     <div className="grid grid-cols-3 gap-3">
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       {/* 2 */}
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       {/* 3 */}
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       <div className="w-60 h-60 bg-red-800"></div>
-//       <div className="w-60 h-60 bg-red-800"></div>
-//     </div>
-//   );
-// };
-
-const TeamWest = () => {
+const TeamEast = () => {
   return (
     <div className="bg-gray-900 min-h-screen text-white">
       <div>
@@ -36,18 +8,18 @@ const TeamWest = () => {
       </div>
       <div>
         <div>
-          <h1 className="text-center my-10 font-bold text-5xl">West Team</h1>
+          <h1 className="text-center my-10 font-bold text-5xl">East Team</h1>
         </div>
         <div className="grid grid-cols-4 text-center place-items-center gap-y-3">
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612763/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612738/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Memphis Grizzlies
+                Boston Celtics
               </h5>
 
               <a
@@ -77,12 +49,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612747/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Los Angeles Lakers
+                Brooklyn Nets
               </h5>
 
               <a
@@ -112,12 +84,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612756/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612752/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Phoenix Suns
+                New York Knicks
               </h5>
 
               <a
@@ -147,12 +119,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612744/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612755/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Golden State Warrior
+                Philadelphia 76ers
               </h5>
 
               <a
@@ -182,12 +154,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612746/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612761/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Los Angeles Clippers
+                Toronto Raptors
               </h5>
 
               <a
@@ -217,12 +189,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612758/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Sacramento Kings
+                Chicago Bulls
               </h5>
 
               <a
@@ -252,12 +224,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612742/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                Dallas Mavericks
+                Cleveland Cavaliers
               </h5>
 
               <a
@@ -287,12 +259,12 @@ const TeamWest = () => {
           <div className="w-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <img
               className="w-32 mx-auto"
-              src="https://cdn.nba.com/logos/nba/1610612759/global/L/logo.svg"
+              src="https://cdn.nba.com/logos/nba/1610612749/global/L/logo.svg"
               alt=""
             />
             <div className="p-3">
               <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">
-                San Antonio Spurs
+                Milwaukee Bucks
               </h5>
 
               <a
@@ -323,4 +295,5 @@ const TeamWest = () => {
     </div>
   );
 };
-export default TeamWest;
+
+export default TeamEast;
