@@ -6,6 +6,8 @@ import UserInfo from "./components/user/userInfo.tsx";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import TanstackQuery from "./provider/tanstack";
 import "./index.css";
+import Next from "./pages/next.tsx";
+import TeamWest from "./pages/teamWest.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -15,6 +17,10 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/" element={<Index />} />
           <Route path="/user" element={<User />} />
           <Route path="/user/:id" element={<UserInfo />} />
+          <Route path="/next" element={<Next />} />
+
+          {/* team */}
+          <Route path="/west" element={<TeamWest />} />
         </Routes>
       </BrowserRouter>
     </TanstackQuery>

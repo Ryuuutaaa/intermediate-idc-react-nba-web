@@ -1,9 +1,11 @@
-import { Link } from "react-router-dom";
-export default function Index() {
+import Navbar from "../components/user/Navbar";
+
+const Index = () => {
   return (
     <div>
-      Index
-      <Link to={"/user"}>Check User</Link>
+      <Navbar />
     </div>
   );
-}
+};
+
+export default Index;
