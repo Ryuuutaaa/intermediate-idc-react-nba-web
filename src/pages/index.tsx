@@ -8,10 +8,11 @@ const Index = () => {
       </div>
       <div>
         <div>
-          <div>
-            <img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt="" />
-          </div>
-          <div></div>
+          <img
+            src="https://frontofficesports.com/wp-content/uploads/2023/06/USATSI_20804744-scaled.jpg?quality=100"
+            alt=""
+            className="w-full bg-cover bg-"
+          />
         </div>
       </div>
     </div>

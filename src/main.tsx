@@ -9,6 +9,7 @@ import "./index.css";
 import Next from "./pages/next.tsx";
 import TeamWest from "./pages/teamWest.tsx";
 import TeamEast from "./pages/teamEast.tsx";
+import About from "./pages/about.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ createRoot(document.getElementById("root")!).render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/about" element={<About />} />
           <Route path="/user" element={<User />} />
           <Route path="/user/:id" element={<UserInfo />} />
           <Route path="/next" element={<Next />} />
