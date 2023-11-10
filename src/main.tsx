@@ -10,6 +10,7 @@ import Next from "./pages/next.tsx";
 import TeamWest from "./pages/teamWest.tsx";
 import TeamEast from "./pages/teamEast.tsx";
 import About from "./pages/about.tsx";
+import Lakers from "./pages/teamEast/lakers.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -25,6 +26,11 @@ createRoot(document.getElementById("root")!).render(
           {/* team */}
           <Route path="/west" element={<TeamWest />} />
           <Route path="/east" element={<TeamEast />} />
+
+          {/*  team east */}
+          <Route path="lakers" element={<Lakers />} />
+
+          {/* team west */}
         </Routes>
       </BrowserRouter>
     </TanstackQuery>
