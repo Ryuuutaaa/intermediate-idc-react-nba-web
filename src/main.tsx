@@ -28,7 +28,7 @@ createRoot(document.getElementById("root")!).render(
           <Route path="/east" element={<TeamEast />} />
 
           {/*  team east */}
-          <Route path="lakers" element={<Lakers />} />
+          <Route path="/lakers" element={<Lakers />} />
 
           {/* team west */}
         </Routes>
